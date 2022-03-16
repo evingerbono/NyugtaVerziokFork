@@ -3,30 +3,57 @@ package nyugtaprojektek;
 public class Nyugta1 {
 
     public static void main(String[] args) {
-        System.out.println("******************");
+        csillagosiras();
         System.out.println("     Nyugta 1");
-        System.out.println("******************");
+        csillagosiras();
         System.out.println("Tétel 1:    350 Ft");
         System.out.println("Tétel 2:     90 Ft");
         System.out.println("Tétel 3:    650 Ft");
-        System.out.println("==================");
+        egyenlöira();
         System.out.println("Összesen:  1090 Ft");
-        System.out.println("------------------");
+        simavonalira();
         System.out.println("Kedvezmény: 109 Ft");
         System.out.println("(10%)");
-        System.out.println("==================");
+        egyenlöira();
         System.out.println("Fizetendő:  981 Ft");
-        System.out.println("------------------");
-        System.out.println("");
-        System.out.print("_______");
-        System.out.print("   ");
-        System.out.println("_______");
+        simavonalira();
+        ures();
+        alsovonalira();
+        ures2();
+        alsovonalira();
+        ures();
         System.out.print(" Dátum");
-        System.out.print("   ");
+        ures2();
         System.out.println("   Név");
-        System.out.println("******************");
+        csillagosiras();
         System.out.println("        CÉG");
+        csillagosiras();
+        
+        
+    }
+
+    private static void csillagosiras() {
         System.out.println("******************");
+    }
+
+    private static void egyenlöira() {
+        System.out.println("==================");
+    }
+
+    private static void alsovonalira() {
+        System.out.print("_______");
+    }
+
+    private static void ures() {
+        System.out.println("");
+    }
+
+    private static void simavonalira() {
+        System.out.println("------------------");
+    }
+
+    private static void ures2() {
+        System.out.print("   ");
     }
     
 }
